@@ -330,6 +330,8 @@ body {
   .skills-grid {
     --spacing-x: 0.44rem;
     --spacing-y: 3.25rem;
+    border-bottom: none;
+    padding: 3.25rem 0 0 0;
   }
   .skill {
     text-align: left;
@@ -341,6 +343,7 @@ body {
     --spacing-x: 2.19rem;
     --spacing-y: 3.62rem;
     --repeat: 3;
+    padding: 4.5rem 0 0 0;
   }
 
   .skill__experience {
@@ -402,6 +405,13 @@ body {
 }
 
 @media (min-width: 48em) {
+  .projects {
+    padding: 6.25rem 0;
+  }
+
+  .projects__header {
+    margin-bottom: 3.75rem;
+  }
   .projects-grid {
     --spacing-y: 3.75rem;
     --sizing: 1fr;
@@ -413,6 +423,14 @@ body {
 }
 
 @media (min-width: 75em) {
+  .projects {
+    padding: 8.75rem 0;
+  }
+
+  .projects__header {
+    margin-bottom: 5rem;
+  }
+
   .project {
     position: relative;
   }
