@@ -300,6 +300,11 @@ body {
     bottom: 4.375rem;
     transform: translateX(-50%);
   }
+
+  .hero-rings {
+    top: 16%;
+    transform: translateX(-19%);
+  }
 }
 
 /*==========================================================================================*/
@@ -609,5 +614,10 @@ body {
   }
   .form {
     flex: 0 1 27.8125rem;
+  }
+
+  .footer-rings {
+    bottom: 35%;
+    transform: translateX(-43%);
   }
 }
